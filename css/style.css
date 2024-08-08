@@ -11,7 +11,7 @@ a {
 
     max-width:600px; margin:auto;
     border:3px solid black;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -30,7 +30,7 @@ iframe#header.slide {
 
 main {
     text-align: center;
-    overflow: hidden;
+   
 }
 
 
