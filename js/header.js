@@ -18,17 +18,17 @@ document.addEventListener("DOMContentLoaded", () => {
             navHide ();
         };
     };
-    
+
     const navHide = () => {
         //nav.classList.add("slide")
 
-        iframe.classList.add("slide");
+        iframe.classList.remove("slide");
         navBtn.textContent = "menu";
         i = 0;
     };
     
     navBtn.addEventListener("click", navSlide);
-    navBtn.addEventListener("click", navHide);
+    /* navBtn.addEventListener("click", navHide); */
 
 
 });//////////////////끝
