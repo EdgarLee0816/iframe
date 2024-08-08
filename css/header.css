@@ -2,6 +2,8 @@
 
 *{margin:0; padding:0; box-sizing: border-box;}
 
+body {overflow: hidden;}
+
 a {
     text-decoration: none;
     color:black;
@@ -9,7 +11,7 @@ a {
 
 
 header {
-    text-align: right;
+    /* text-align: right; */
     padding:20px;
     position:relative;
     background: white;
@@ -17,15 +19,17 @@ header {
 
 header nav {
 
-    background-color: rgba(0,0,0,0.7); height: 100vh;
+    background-color: rgba(0,0,0,0.7); 
+    height: 100vh;
     color:white;      
     line-height: 200%;  
     position:absolute;
     left:0;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: all 0.7s;
-    height: 100vh;
+    
+    
 }
 
 header button.material-symbols-outlined {
