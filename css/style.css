@@ -17,8 +17,13 @@ a {
 
 iframe#header {
     width:100%;
-    height: 800px;
+    height: 100px;
     position:absolute;
+}
+
+iframe#header.slide {
+    width:100%;
+    padding:50px;
 }
 
 
@@ -60,3 +65,8 @@ footer a{
 
     color:white; padding:5px; margin:5px;
 }
+
+/* header:hover nav.slide {
+    height: 100vh;
+    width: 50vh;
+} */

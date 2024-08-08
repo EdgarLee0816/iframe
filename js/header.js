@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navSlide = () => {
         //nav.classList.add("slide")
 
-        iframe.classList.add("slide")
+        iframe.classList.add("slide");
         
 
     };
