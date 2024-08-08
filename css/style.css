@@ -30,6 +30,7 @@ iframe#header.slide {
 
 main {
     text-align: center;
+    overflow: hidden;
 }
 
 

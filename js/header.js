@@ -21,9 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (iframe.classList.contains("slide")) {
             iframe.classList.remove("slide");
             navBtn.textContent = "menu";
+            nav.style.transition = "0.5s"
         } else {
             iframe.classList.add("slide");
             navBtn.textContent = "close";
+            nav.style.transition = "0.5s"
         }
     };
 
