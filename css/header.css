@@ -20,7 +20,7 @@ header {
 header nav {
 
     background-color: rgba(0,0,0,0.7); 
-    height: 100vh;
+    height: 0;
     color:white;      
     line-height: 200%;  
     position:absolute;
